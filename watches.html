@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LuxuryWatch</title>
+    <link rel="stylesheet" href="./style2.css">
+    <link rel="shortcut icon" href="./logo.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <img src="./pocket-watch.png" alt="logo" width="65px">
+        <p>LUXURY<span>WATCH</span></p>
+        <nav>
+            <ul>
+                <li><a href="./index.html">HOME</a></li>
+                <li><a href="#">WATCHES</a></li>
+                <li><a href="./index.html">ABOUT US</a></li>
+                <li><a href="./index.html#contactUs">CONTACT US</a></li>
+            </ul>
+        </nav>
+        <div class="btn">
+            <button class="header_btn">Sign in</button>
+            <button class="header_btn2">join now</button>
+        </div>
+    </header>
+    <div class="watches">
+        <p class="title">WATCHES</p>
+        <div id="cards">
+            <div class="card">
+                <img src="./firstWatch.png" alt="watch1" width="325px">
+                <h2>Damas Sport Watch 3</h2>
+                <p>161 KWD</p>
+                <button onclick="addCard3()">add to cart</button>
+            </div>
+            <div class="card">
+                <img src="./firstWatch.png" alt="watch1" width="325px">
+                <h2>Damas Sport Watch 2</h2>
+                <p>143 KWD</p>
+                <button onclick="addCard2()">add to cart</button>
+            </div>
+            <div class="card">
+                <img src="./firstWatch.png" alt="watch1" width="325px">
+                <h2>Damas Sport Watch 1</h2>
+                <p>120 KWD</p>
+                <button onclick="addCard1()">add to cart</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="cart">
+        <p class="cart_title">CART</p>
+        <div class="cards_cart" id="cart">
+
+        </div>
+    </div>
+<script src="./script.js"></script>
+</body>
+</html>

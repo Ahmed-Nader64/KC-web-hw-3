@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap');
+@import url(//db.onlinewebfonts.com/c/d7e8a95865396cddca89b00080d2cba6?family=SoDo+Sans+SemiBold);
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    height: 30px;
+    background-color: white;
+    font-family: "SoDo Sans SemiBold";
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 30px;
+    padding-left: 50px;
+    box-shadow: 0 1px 3px rgb(0 0 0 / 10%), 0 2px 2px rgb(0 0 0 / 6%), 0 0 2px rgb(0 0 0 / 7%);
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+header p{
+    color: goldenrod;
+    font-size: 20px;
+    background-color: antiquewhite;
+}
+ header p span{
+
+    color: black;
+}
+img{
+    padding: 8px;
+    cursor: pointer;
+}
+nav{
+    padding-left: 50px;
+    width: 800px;
+}
+nav ul{
+    width: 750px;
+    margin-left: 100px;
+}
+nav li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 20px;
+}
+nav a {
+    text-decoration: none;
+    color: rgba(0,0,0,.87);
+    font-size: 15px;
+    font-weight: 700;
+    padding: 10px;
+    transition: all 0.2s ease-in-out;
+}
+nav li a:hover{
+    color:rgb(213, 181, 0);
+    color: goldenrod;
+    padding: 15px;
+}
+.header_btn{
+    display: inline-block;
+    background: none;
+    border-style: solid;
+    border-width: 1.5px;
+    border-radius: 50px;
+    padding: 7px 16px;
+    font-weight: 700;
+    line-height: 1.2;
+    text-align: center;
+    font-size: 15px;
+    transition: all .2s ease-in-out;
+    width: 100px;
+    height:45px ;
+}
+.btn{
+    margin-left: 100px;
+    float: right;
+}
+.header_btn:hover{
+    background-color:rgba(0,0,0,.87);
+    color:white;
+}
+.header_btn2{
+    display: inline-block;
+    background: none;
+    border-style: solid;
+    border-width: 1.5px;
+    border-radius: 50px;
+    padding: 7px 16px;
+    font-weight: 700;
+    line-height: 1.2;
+    text-align: center;
+    font-size: 15px;
+    transition: all .2s ease-in-out;
+    margin-left: 15px;
+    width: 100px;
+    height:45px ;
+}
+.header_btn2:hover{
+    background-color:rgba(0,0,0,.87);
+    color:white;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: #9aa2ba;
+    height: 100vh;
+    width: 100%;
+}
+.container img{
+    margin-right: 75px;
+    width: 485px;
+    border-radius: 40px;
+    z-index:500;
+}
+.container_txt{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    width: 550px;
+}
+.container_txt h2{
+    color: #ffcc74;
+    font-size: 85px;
+    margin-top:-10px ; 
+}
+
+.container_txt h5{
+    margin-top: -65px;
+    font-size: 18px;
+    font-weight:bold;
+}
+.container_txt p{
+    line-height: 23px;
+    font-size: 15px;
+    margin-top: -2px;
+    font-weight: lighter;    
+}
+.container button{
+    border: none;
+    width: 85px;
+    height: 35px;
+    color: rgb(17, 17, 17);
+    border-radius: 20px;
+    background-color: #ffcc74;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+    margin-top: 25px;
+    box-shadow: 2px 5px 10px gray;
+}
+.container button:hover {
+    background-color: rgb(47,47,47);
+    box-shadow: 2px 5px 15px rgb(89, 89, 89);
+    color: #ffcc74;
+}
+.shape{
+    position: absolute;
+    width: 250px;
+    height: 235px;
+    background-color: #ffcc74;
+    border-radius: 15px;
+    left: 75px;
+    z-index: 1;
+    box-shadow: 1px 1px 75px rgba(49, 49, 49, 0.341);
+}
+.shape p{
+    text-align: center;
+    font-size: 100px;
+    margin-top: 85px;
+    margin-bottom:auto;
+}
+.contact_main{
+    height: 100vh;
+    background-color: rgb(95, 106, 139);
+    font-family: 'Josefin Sans', sans-serif;
+    border-radius: 20px 20px 0px 0px;
+    padding-bottom: 30px;
+    margin-top: -20px;
+    width: 100%;
+}
+.contact_page{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.reach_us{
+    width: 22%;
+    background-color: #25335b;
+    height: 450px;
+    border-radius: 0px 13px 13px 0px;
+}
+.reach_us h4{
+    color: white;
+    padding-left: 25px;
+    font-size: 25px;
+    color: #ffcc74;
+}
+.reach_us div{
+    display: block;
+    width: 200px;
+    margin-left: 25px;
+    font-size: 20px;
+    margin-top: 60px;
+}
+.reach_us div h6{
+    color: white;
+}
+.contact_main h2{
+    margin-bottom: 0;
+    padding-top: 80px;
+    margin-left: 200px;
+    padding-left: 35px;
+    color: #ffcc74;
+    font-size: 85px;
+    margin-top:-10px ; 
+    text-shadow: 1px 1px 5px #eaaf4a34;
+}
+.contact_main p{
+    padding-left: 50px;
+    color: white;
+    width: 675px;
+    margin-left: 200px;
+}
+.container_inf{
+    background-color: white;
+    width: 650px;
+    height: 400px;
+    padding: 25px;
+    padding-left: 35px;
+    border-radius: 13px 0px 0px 13px;
+}
+.container_inf h3{
+    margin-top: 3px;
+    color: #f3af38;
+    font-size: 25px;
+}
+.row1{
+    display: flex;
+    flex-direction:row ;
+}
+.inner_block2 {
+    margin-left: 75px;
+}
+.container_inf input{
+    width: 250px;
+}
+.inner_block4{
+    margin-left: 75px;
+}
+.row2{
+    display: flex;
+    flex-direction: row;
+}
+.inner_block5 button{
+    margin-top: 350px;
+    float: right;
+}
+.row_last button{
+    margin-top: 90px;
+    border-radius: 30px;
+    border: none;
+    width: 75px;
+    height: 35px;
+    background-color: #f3af38;
+    color: black;
+    font-size: 15px;
+    box-shadow: 2px 5px 10px rgba(128, 128, 128, 0.585);
+}
+.row_last button:hover {
+    background-color: rgb(47,47,47);
+    box-shadow: 2px 5px 15px rgb(89, 89, 89);
+    color: #ffcc74;
+}
+.inner_block5 textarea{
+    padding: 8px;
+}
